@@ -1,1 +1,19 @@
-
+package Q5_Employee_Class_System;
+ 
+public class Q5_Company_class {
+ 
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+         
+employee E1 = new employee("Pardeep", 1, 35000, "Pune");
+employee E2 = new employee("Priya", 2, 42000, "Noida");
+employee E3 = new employee("Vikash", 3, 38000, "Kolkata");
+employee E4 = new employee("Shruti", 4, 31000, "Ahmedabad");
+employee E5 = new employee("Karan", 5, 29000, "Jaipur");
+employee E6 = new employee("Neha", 6, 45000, "Gurugram");
+       
+       
+ 
+    }
+ 
+}
