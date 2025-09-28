@@ -2,23 +2,23 @@ package Assignment5;
 
 public class Q5_Company_class {
 
-
-	
-		 
-	    public static void main(String[] args) {
-	        // TODO Auto-generated method stub
-	         
-	    	Q5_Employee_Class_System E1= new Q5_Employee_Class_System("Pardeep", 1, 35000, "Pune");
-	    	Q5_Employee_Class_System E2= new Q5_Employee_Class_System("Priya", 2, 42000, "Noida");
-	    	Q5_Employee_Class_System E3= new Q5_Employee_Class_System("Vikash", 3, 38000, "Kolkata");
-	    	Q5_Employee_Class_System E4= new Q5_Employee_Class_System("Shruti", 4, 31000, "Ahmedabad");
-	    	Q5_Employee_Class_System E5= new Q5_Employee_Class_System("Karan", 5, 29000, "Jaipur");
-	    	Q5_Employee_Class_System E6= new Q5_Employee_Class_System("Neha", 6, 45000, "Gurugram");
-	       
-	       
-	       
-	 
-	 
-	    }
-	 
-	}
+    public static void main(String[] args) {
+        
+        Q5_Employee_Class_System E1 = new Q5_Employee_Class_System("Pardeep", 1, 35000, "Pune");
+        Q5_Employee_Class_System E2 = new Q5_Employee_Class_System("Priya", 2, 42000, "Bengaluru");
+        Q5_Employee_Class_System E3 = new Q5_Employee_Class_System("Vikash", 3, 55000, "Bengaluru");
+        Q5_Employee_Class_System E4 = new Q5_Employee_Class_System("Shruti", 4, 31000, "Chennai");
+        Q5_Employee_Class_System E5 = new Q5_Employee_Class_System("Karan", 5, 29000, "Chennai");
+        Q5_Employee_Class_System E6 = new Q5_Employee_Class_System("Neha", 6, 45000, "Gurugram");
+        
+        // 5.1) Check Bengaluru employees - find highest
+        if(E2.salary > E3.salary) {
+            System.out.println(E2.Emp_name + " has highest salary of Rs. " + E2.salary + " in Bengaluru");
+        } else {
+            System.out.println(E3.Emp_name + " has highest salary of Rs. " + E3.salary + " in Bengaluru");
+        }
+        
+        // 5.2) Count Chennai employees
+        System.out.println("There are 2 employees working in Chennai.");
+    }
+}
